@@ -1,5 +1,0 @@
-When you're removing from a list, avoid doing it inside a loop that’s iterating over the same list. It leads to bugs 🐛.
-
-if cond in list: is only used when you’re literally checking if something exists in the list — not for logic conditions like % 2 != 0
-
-There athing when you take input like str(input("")) it converts the input in string not limit user to provide only string input 

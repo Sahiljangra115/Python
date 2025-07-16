@@ -1,0 +1,26 @@
+When you're removing from a list, avoid doing it inside a loop that’s iterating over the same list. It leads to bugs 🐛.
+
+if cond in list: is only used when you’re literally checking if something exists in the list — not for logic conditions like % 2 != 0
+
+There athing when you take input like str(input("")) it converts the input in string not limit user to provide only string input 
+
+the // is used as a floor division operator only returns the integer part of the division, discarding the decimal part. For example, 5 // 2 will return 2, not 2.5.
+
+---- the mutable datatypes can be changed by the function but immutable datatypes cannot be changed by the function  
+
+there can be a DEFAULT TRAP in args as discussed in code so keep that in mind
+
+pure functions are those which do not change the state of the program and return a value based on the input given to them. They do not have side effects like changing global variables or modifying mutable objects.
+
+impure functions are those which change the state of the program or have side effects like changing global variables or modifying mutable objects.
+
+lambdas are anonymous functions that can take any number of arguments but can only have one expression. They are often used for short, throwaway functions that are not reused elsewhere in the code.
+
+we cannot send values to a just started generator
+# This is a note about generators in Python, specifically about sending values to them.
+next(values.send("hello")) # output: Startes generator   ---> we cannot send values to a just started generator
+
+
+# refer to my claude chat for easy understanding to Yield and constructors :
+
+                                       https://claude.ai/share/d0608b35-fdc2-4f2e-aaf6-3b2c7e1e880b
