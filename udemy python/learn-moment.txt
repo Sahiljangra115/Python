@@ -24,3 +24,10 @@ next(values.send("hello")) # output: Startes generator   ---> we cannot send val
 # refer to my claude chat for easy understanding to Yield and constructors :
 
                                        https://claude.ai/share/d0608b35-fdc2-4f2e-aaf6-3b2c7e1e880b
+
+
+-->  Remember that every method in a class gets the self parameter by default. Always do it
+
+--> Also a class do not get parenthesis when you define it, but you do need to use parentheses when you inherit from another class.
+
+--> Here remember one more thing that creating a object and a class both have different syntax.
