@@ -22,4 +22,4 @@ class Derived(Base):
         super().__init__(name)     # Using super() to call the base class constructor
         self.age = age   
 
-# super() is more ussed in the programming world because it is more flexible and allows for multiple inheritance
+# super() is more used in the programming world because it is more flexible and allows for multiple inheritance
