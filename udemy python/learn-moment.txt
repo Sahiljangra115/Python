@@ -31,3 +31,6 @@ next(values.send("hello")) # output: Startes generator   ---> we cannot send val
 --> Also a class do not get parenthesis when you define it, but you do need to use parentheses when you inherit from another class.
 
 --> Here remember one more thing that creating a object and a class both have different syntax.
+
+--> We can convert an array to a syring with this method:
+                       " ".join(array/list)
